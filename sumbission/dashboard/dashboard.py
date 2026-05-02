@@ -7,8 +7,7 @@ import streamlit as st
 st.title("Dashboard Analisis Data E-Commerce")
 
 # ===== Load Data =====
-# Load Data
-df = pd.read_csv("dashboard/main_data.csv")
+df = pd.read_csv("sumbission/dashboard/main_data.csv")
 
 # ===== Preview Data =====
 st.subheader("Preview Data")
