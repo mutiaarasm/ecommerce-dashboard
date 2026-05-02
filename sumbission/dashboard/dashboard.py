@@ -6,8 +6,8 @@ import streamlit as st
 # ===== Title =====
 st.title("Dashboard Analisis Data E-Commerce")
 
-# ===== Load Data =====
-df = pd.read_csv("main_data.csv")
+BASE_DIR = Path(__file__).parent
+df = pd.read_csv(BASE_DIR / "main_data.csv")
 
 # ===== Preview Data =====
 st.subheader("Preview Data")
