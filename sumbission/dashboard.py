@@ -22,8 +22,7 @@ Dashboard ini menampilkan analisis data e-commerce berdasarkan:
 # ======================================
 # Load Data
 # ======================================
-df = pd.read_csv("dashboard/main_data.csv")
-
+df = pd.read_csv("main_data.csv")
 # Konversi tanggal
 df["order_purchase_timestamp"] = pd.to_datetime(
     df["order_purchase_timestamp"]
